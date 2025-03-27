@@ -16,7 +16,7 @@ export default function Header() {
 const styles = StyleSheet.create({
 
     header: {
-        height: 253,
+        height: 150,
         width: '100%',
         backgroundColor: '#276FF5',
         justifyContent: 'center',
@@ -26,6 +26,8 @@ const styles = StyleSheet.create({
 
     fotoPerfil: {     
       position: 'relative',
-      top: 120,
+      top: 80,
+      height: 150,
+      width: 140,
     }
 });
