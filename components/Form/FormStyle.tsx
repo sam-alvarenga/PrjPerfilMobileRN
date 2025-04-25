@@ -4,10 +4,16 @@ import { StyleSheet } from "react-native";
 export const FormStyles = StyleSheet.create({
 
     form: {
-        width: '90%',
+        width: '80%',
         marginTop: 90,
         
     },
+
+    formText: {
+        marginBottom: 15,
+       
+    },
+
 
     label: {
         marginVertical: 5,
@@ -20,21 +26,22 @@ export const FormStyles = StyleSheet.create({
         height: 40,
         borderColor: '#276FF5',
         borderWidth: 1,
-        marginBottom: 15,
         paddingLeft: 10,
         borderRadius: 5,
-        width: '100%'
-
     },
 
     dropDownPicker: {
         borderColor: '#276FF5',
-        marginVertical: 10,
-
-
+        marginVertical: 20,
+        
+        
+    },
+   
+    icon: {
+        position: 'absolute',
+        right: 10,
+        marginTop: 40
     },
 
-    formText:{
 
-    }
 });
